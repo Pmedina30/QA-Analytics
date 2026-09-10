@@ -1,0 +1,45 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+env/
+venv/
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Output generado (reproducible con python run_analysis.py) ────────────────
+Output/qa_clean.csv
+Output/data_quality_report.csv
+Output/qa_summary.xlsx
+Output/executive_insights.txt
+
+# ─── Imágenes generadas (reproducibles) ──────────────────────────────────────
+# Comentar las siguientes líneas si quieres incluir los gráficos en GitHub
+# visualizations/*.png
+
+# ─── Datos sensibles / grandes ────────────────────────────────────────────────
+# El CSV fuente se incluye porque es < 10MB y es necesario para demostrar el proyecto.
+# Si el archivo fuera confidencial, agregar la línea de abajo:
+# Data/qa_evaluations_2026.csv
+
+# ─── Sistema operativo ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
